@@ -1,0 +1,15 @@
+# Recording + live play
+mss>=9.0
+opencv-python>=4.9
+python-uinput>=0.11
+evdev>=1.7
+numpy>=1.26
+
+# Small model (behavior cloning) - CPU-only PyTorch is fine, it's a few
+# million parameters
+torch>=2.2
+
+# Planner client (talks to LM Studio's local server over HTTP - no model
+# loading in this process)
+requests>=2.31
+pillow>=10.0
